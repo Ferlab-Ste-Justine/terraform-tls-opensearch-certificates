@@ -1,6 +1,6 @@
 terraform {
   required_providers {
-    cloudinit = {
+    tls = {
       source  = "hashicorp/tls"
       version = ">= 4.0.0, < 5.0.0"
     }
